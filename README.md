@@ -64,7 +64,8 @@ Three models were trained and tested.  The three include: linear regression, log
 
 The better model of the two is the Logistic Regression.  Below is the weight per feature and the ROC for the logistic model.
 
-<img src="https://github.com/knishina/heart_attack/blob/master/Images/07.png" width=50% alt="weights"> &nbsp; &nbsp; <img src="https://github.com/knishina/heart_attack/blob/master/Images/08.png" width=50% alt="ROC">
+<img src="https://github.com/knishina/heart_attack/blob/master/Images/07.png" width=20% alt="weights">
+<img src="https://github.com/knishina/heart_attack/blob/master/Images/08.png" width=50% alt="ROC">
 <br />
 
 ### License.
