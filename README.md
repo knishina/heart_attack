@@ -65,3 +65,8 @@ Three models were trained and tested.  The three include: linear regression, log
 The better model of the two is the Logistic Regression.  Below is the weight per feature and the ROC for the logistic model.
 
 ![weights](https://github.com/knishina/heart_attack/blob/master/Images/07.png) &nbsp; &nbsp; ![ROC](https://github.com/knishina/heart_attack/blob/master/Images/08.png)
+
+<br />
+
+### License.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/knishina/heart_attack/blob/master/LICENSE) file for details.
