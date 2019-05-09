@@ -23,7 +23,7 @@ The data have fourteen attributes.  They include:
  
  ### Data Analysis and Visualization.
  
- ![heatmap]()
+ ![heatmap](https://github.com/knishina/heart_attack/blob/master/Images/01.png)
  <b>Data Heatmap</b>
 All categories were set against each other.  A resulting heatmap was produced that indicates positive/negative correlations.  Considering the various columns in reference to `target`, there a few notable positive and negative relationships.
 - positive relationships include: cp, thalach, and slope. 
@@ -31,19 +31,19 @@ All categories were set against each other.  A resulting heatmap was produced th
 
 <br />
 
-![age]()
+![age](https://github.com/knishina/heart_attack/blob/master/Images/02.png)
 <b>Age as an indicator for heart disease</b>
 This plot considers age and its role as an indicator for heart attack. The legend indicates heart attack (1) v. no heart attack (0). In this case, the above bar graph indicates that there is little to correlation of age as an indicator for heart attack. This is further evidenced by the heat map having a negative correlation value of -0.23.
 
 <br />
 
-![sex]()
+![sex](https://github.com/knishina/heart_attack/blob/master/Images/03.png)
 <b> Gender as an indicator for heart disease</b>
 This plot considers sex and its role as an indicator for heart attack. First, it appears that the data is skewed to males, meaning, that there are more males in this study compared to females. In fact, the ratio of males to females is 2:1. Second, the female population has a higher rate of heart attacks; the male population has a lower rate of heart attacks. Due to this discrepancy, the heatmap reads this as not having a positive correlation. In other words, heatmap is indicating that sex is not likely an indicator of having a heart attack (-0.28).
 
 <br />
 
-![chest_pain]()
+![chest_pain](https://github.com/knishina/heart_attack/blob/master/Images/04.png)
 <b>Chest pain as an indicator for heart disease</b>
 This plot considers chest pain type (cp) as an indicator for heart attack. For data where cp is 1 or higher, the incidence of heart attack is high. For data were cp is 0, the value of 0 indicates that there is no chest pain and correlates strongly with the absence of heart attack. According to the heatmap, the value for cp is 0.43, a positive correlation. That means that cp is likely an indicator of having a heart attack.
 
@@ -55,13 +55,13 @@ Three models were trained and tested.  The three include: linear regression, log
 <b>Logistic Regression</b>
 - Accuracy score: Train = 0.864; Test = 0.885.  
 - Classification report: <br/>
-![classification_report1]()
+![classification_report1](https://github.com/knishina/heart_attack/blob/master/Images/05.png)
 
 <b>SVM</b>
 - Accuracy score: Train = 0.855; Test = 0.869.
 - Classification report: <br/>
-![classification_report2]()
+![classification_report2](https://github.com/knishina/heart_attack/blob/master/Images/06.png)
 
 The better model of the two is the Logistic Regression.  Below is the weight per feature and the ROC for the logistic model.
 
-![weights]() &nbsp; &nbsp; ![ROC]()
+![weights](https://github.com/knishina/heart_attack/blob/master/Images/07.png) &nbsp; &nbsp; ![ROC](https://github.com/knishina/heart_attack/blob/master/Images/08.png)
