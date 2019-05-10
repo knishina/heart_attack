@@ -1,7 +1,7 @@
 # heart_attack
 
 ### Summary.
-This project takes data consisting of attributes that are hypothesized to contribute to heart disease.  The purpose of this project is to take the data and generate a predictive model for heart disease.  The data was obtained through [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci).  The following modules were used analyze/visualize and build a predictive model: ```pandas, matplotlib, seaborn, sklearn, and eli5```.
+This project takes data consisting of attributes that are hypothesized to contribute to heart disease.  The purpose of this project is to take the data and generate a predictive model for heart disease.  The data was obtained through [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci).  The following modules were used analyze/visualize and build a predictive model: `pandas` for data munging, `matplotlib, seaborn` for data visualization, and `sklearn, eli5` for model building and its associated analyses.
 
 The data have fourteen attributes.  They include:
  - `age` &nbsp; &nbsp; &nbsp; &nbsp; in years
