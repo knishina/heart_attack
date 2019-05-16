@@ -17,7 +17,7 @@ The data have fourteen attributes.  They include:
  - `slope` &nbsp; &nbsp; &nbsp; the slope of the peak exercise ST segment
  - `ca` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;number of major vessels (0-3) colored by flourosopy
  - `thal` &nbsp; &nbsp; &nbsp; &nbsp; 3 = normal; 6 = fixed defect; 7 = reversable defect
- - `target` &nbsp; &nbsp; 1 or 0 (I think this means 1= heart attack; 0=no heart attack)
+ - `target` &nbsp; &nbsp; 1 or 0 (I think this means 1= heart disease; 0=no heart disease)
  
  <br />
  
@@ -33,19 +33,19 @@ All categories were set against each other.  A resulting heatmap was produced th
 
 <img src="https://github.com/knishina/heart_attack/blob/master/Images/02.png" width=50% alt="age">
 <b>Age as an indicator for heart disease</b>
-This plot considers age and its role as an indicator for heart attack. The legend indicates heart attack (1) v. no heart attack (0). In this case, the above bar graph indicates that there is little to correlation of age as an indicator for heart attack. This is further evidenced by the heat map having a negative correlation value of -0.23.
+This plot considers age and its role as an indicator for heart disease. The legend indicates heart disease (1) v. no heart disease (0). In this case, the above bar graph indicates that there is little to correlation of age as an indicator for heart disease. This is further evidenced by the heat map having a negative correlation value of -0.23.
 
 <br />
 
 <img src="https://github.com/knishina/heart_attack/blob/master/Images/03.png" width=50% alt="gender">
 <b> Gender as an indicator for heart disease</b>
-This plot considers sex and its role as an indicator for heart attack. First, it appears that the data is skewed to males, meaning, that there are more males in this study compared to females. In fact, the ratio of males to females is 2:1. Second, the female population has a higher rate of heart attacks; the male population has a lower rate of heart attacks. Due to this discrepancy, the heatmap reads this as not having a positive correlation. In other words, heatmap is indicating that sex is not likely an indicator of having a heart attack (-0.28).
+This plot considers sex and its role as an indicator for heart attack. First, it appears that the data is skewed to males, meaning, that there are more males in this study compared to females. In fact, the ratio of males to females is 2:1. Second, the female population has a higher rate of heart disease; the male population has a lower rate of heart disease. Due to this discrepancy, the heatmap reads this as not having a positive correlation. In other words, heatmap is indicating that sex is not likely an indicator of having a heart disease (-0.28).
 
 <br />
 
 <img src="https://github.com/knishina/heart_attack/blob/master/Images/04.png" width=50% alt="chest_pain">
 <b>Chest pain as an indicator for heart disease</b>
-This plot considers chest pain type (cp) as an indicator for heart attack. For data where cp is 1 or higher, the incidence of heart attack is high. For data were cp is 0, the value of 0 indicates that there is no chest pain and correlates strongly with the absence of heart attack. According to the heatmap, the value for cp is 0.43, a positive correlation. That means that cp is likely an indicator of having a heart attack.
+This plot considers chest pain type (cp) as an indicator for heart disease. For data where cp is 1 or higher, the incidence of heart disease is high. For data were cp is 0, the value of 0 indicates that there is no chest pain and correlates strongly with the absence of heart disease. According to the heatmap, the value for cp is 0.43, a positive correlation. That means that cp is likely an indicator of having a heart disease.
 
 <br />
 
