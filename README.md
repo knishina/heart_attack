@@ -39,7 +39,7 @@ This plot considers age and its role as an indicator for heart disease. The lege
 
 <img src="https://github.com/knishina/heart_attack/blob/master/Images/03.png" width=50% alt="gender">
 <b> Gender as an indicator for heart disease</b>
-This plot considers sex and its role as an indicator for heart attack. First, it appears that the data is skewed to males, meaning, that there are more males in this study compared to females. In fact, the ratio of males to females is 2:1. Second, the female population has a higher rate of heart disease; the male population has a lower rate of heart disease. Due to this discrepancy, the heatmap reads this as not having a positive correlation. In other words, heatmap is indicating that sex is not likely an indicator of having a heart disease (-0.28).
+This plot considers sex and its role as an indicator for heart disease. First, it appears that the data is skewed to males, meaning, that there are more males in this study compared to females. In fact, the ratio of males to females is 2:1. Second, the female population has a higher rate of heart disease; the male population has a lower rate of heart disease. Due to this discrepancy, the heatmap reads this as not having a positive correlation. In other words, heatmap is indicating that sex is not likely an indicator of having a heart disease (-0.28).
 
 <br />
 
