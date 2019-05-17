@@ -35,29 +35,38 @@ Before any of those questions are addressed, a heatmap was generated to survey p
 <br />
 
  ![heatmap](https://github.com/knishina/heart_attack/blob/master/Images/01.png)
- <b>Data Heatmap</b>
+ <b>Data Heatmap</b><br />
 All categories were set against each other.  A resulting heatmap was produced that indicates positive/negative correlations.  Considering the various columns in reference to `target`, there a few notable positive and negative relationships.
 - positive relationships include: cp, thalach, and slope. 
 - negative relationships include: age, sex, exang, oldpeak, ca, and thal.
 
 <br />
+<hr>
+<br />
 
-<img src="https://github.com/knishina/heart_attack/blob/master/Images/02.png" width=50% alt="age">
 <b>Age as an indicator for heart disease</b>
 This plot considers age and its role as an indicator for heart disease. The legend indicates heart disease (1) v. no heart disease (0). In this case, the above bar graph indicates that there is little to correlation of age as an indicator for heart disease. This is further evidenced by the heat map having a negative correlation value of -0.23.
 
+<img src="https://github.com/knishina/heart_attack/blob/master/Images/02.png" width=50% alt="age">
+
+
+<br />
 <br />
 
-<img src="https://github.com/knishina/heart_attack/blob/master/Images/03.png" width=50% alt="gender">
 <b> Gender as an indicator for heart disease</b>
 This plot considers sex and its role as an indicator for heart disease. First, it appears that the data is skewed to males, meaning, that there are more males in this study compared to females. In fact, the ratio of males to females is 2:1. Second, the female population has a higher rate of heart disease; the male population has a lower rate of heart disease. Due to this discrepancy, the heatmap reads this as not having a positive correlation. In other words, heatmap is indicating that sex is not likely an indicator of having a heart disease (-0.28).
 
+<img src="https://github.com/knishina/heart_attack/blob/master/Images/03.png" width=50% alt="gender">
+
+<br />
 <br />
 
-<img src="https://github.com/knishina/heart_attack/blob/master/Images/04.png" width=50% alt="chest_pain">
 <b>Chest pain as an indicator for heart disease</b>
 This plot considers chest pain type (cp) as an indicator for heart disease. For data where cp is 1 or higher, the incidence of heart disease is high. For data were cp is 0, the value of 0 indicates that there is no chest pain and correlates strongly with the absence of heart disease. According to the heatmap, the value for cp is 0.43, a positive correlation. That means that cp is likely an indicator of having a heart disease.
 
+<img src="https://github.com/knishina/heart_attack/blob/master/Images/04.png" width=50% alt="chest_pain">
+
+<br />
 <br />
 
 ### Model Building.
