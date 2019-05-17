@@ -32,7 +32,7 @@ There were three main areas that were investigated. Whether there is a trend of 
 
 Before any of those questions are addressed, a heatmap was generated to survey possible correlations.
 
-< br />
+<br />
 
  ![heatmap](https://github.com/knishina/heart_attack/blob/master/Images/01.png)
  <b>Data Heatmap</b>
